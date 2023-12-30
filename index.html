@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>JS</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+<div class="container">
+<h2>click the button to change the text</h2>
+<button type="button" class="btn btn-dark" onclick="textChange()">Change Text</button>
+<h3 id="t_h3">Hi</h3>
+<hr>
+<h2>click the button to change the text</h2>
+<button type="button" class="btn btn-dark" onclick="changeTheText()">Change the Text</button>
+<h3 id="h3">Hello world!</h3>		
+<hr>
+<h2>click the button to see the date</h2>
+<button type="button" class="btn btn-dark"ondblclick="showDate()">Show Date</button>
+<h3 id="sd"></h3>
+<hr>
+<h2>click the button to on/off the bulb</h2>
+<button type="button" class="btn btn-success" onclick="bulbOn()">Bulb On</button>
+<button type="button" class="btn btn-danger" onclick="bulbOff()">Bulb Off</button>
+<img id="img" src="images/bulboff.gif" alt="Bulb">
+<hr>
+<h2>click the button to see the smile/sad emoji</h2>
+<button type="button" class="btn btn-success" onclick="smileE()">smile</button>
+<button type="button" class="btn btn-danger" onclick="sadE()">sad</button>
+<img id="emoji" src="images/smile.jpeg">
+<hr>
+<h2>click the button to show the border</h2>
+<button type="button" class="btn btn-dark" onclick="showBorder()">Show Border</button>
+<p id="sb">Welcome to my Website</p>
+<hr>
+<h2>click the button to show the Color</h2>
+<button type="button" class="btn btn-dark" onclick="showColor()">Show Color</button>
+<p id="sc">Welcome to my Website</p>
+<hr>
+<h2>click the button to show/hide the text</h2>
+<button type="button" class="btn btn-success" onclick="showText()">Show Text</button>
+<button type="button" class="btn btn-danger" onclick="hideText()">Hide Text</button>
+<p id="sh">Welcome to my Website</p>
+<hr>
+<h2>click the button to show/hide the img</h2>
+<button type="button" class="btn btn-success" onclick="showImg()">Show Img</button>
+<button type="button" class="btn btn-danger" onclick="hideImg()">Hide Img</button>
+<img id="ish" src="images/bulboff.gif" alt="Bulb">
+<hr>
+<h2>click the button to show the result</h2>
+<button type="button" class="btn btn-dark" onclick="showResult()">Show Result</button>
+<h3 id="result">Result</h3>
+<hr>
+<h2>uses of classname</h2>
+<button type="button" class="btn btn-dark" onclick="cName()">Show Text</button>
+<p class="p">Hello</p>
+<p class="p">Hello</p>
+<p class="p">Hello</p>
+<hr>
+<h2>show length</h2>
+<button type="button" class="btn btn-dark" onclick="cName()">Output</button>
+<h1>lorem ipsum,dolor amet.</h1>
+<p class="p">Hello</p>
+<p class="p">Hello</p>
+<p class="p">Hello</p>
+
+</div>
+
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+<script>
+//change the text
+function changeTheText(){
+	document.getElementById('h3').innerHTML="Hello Bangladesh";
+} 
+
+</script>
+
+<script>
+	//text change
+	function textChange(){
+		document.getElementById('t_h3').innerHTML="Welcome";
+	} 
+</script>	
+</body>
+</html>
